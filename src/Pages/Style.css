@@ -1,0 +1,353 @@
+/* ---------------------------------------Admin Login--------------------------------------- */
+.adminLogin {
+    height: 596px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form,
+.signup-form {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login-form button,
+.signup-form button {
+    background-color: #3DB14B;
+}
+
+/* -------------------------------------Universal Classes------------------------------------- */
+.page-style {
+    background-color: #fcfcfc;
+}
+
+.section-style {
+    padding: 20px 0;
+}
+
+.section-head {
+    padding: 12px 0;
+    display: inline-block;
+    margin: 0;
+}
+
+.section-head ::after {
+    content: "";
+    display: inline-block;
+}
+
+.section-seprator {
+    background-color: #c2c2c2;
+}
+
+/* -------------------------------------Header Section(Navbar1 & Navbar2)------------------------------------- */
+.home-navbar {
+    background-color: #f7f7f7;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.logo1 {
+    width: 230px;
+    height: 50px;
+}
+
+.nav-ul {
+    width: 100%;
+}
+
+.loginDropdown {
+    position: relative;
+    top: 53px;
+    min-width: 212px;
+}
+
+.search {
+    border: 2px solid #3DB14B;
+}
+
+.home-nav-link {
+    color: black !important;
+    font-size: 18px;
+}
+
+.home-nav-link:hover {
+    color: #3DB14B !important;
+}
+
+.sign-up-btn,
+.login-btn {
+    color: #3DB14B !important;
+    margin-left: 5px;
+    padding: 5px !important;
+    text-decoration: none;
+    border: 2px solid #3DB14B;
+    border-radius: 2px;
+}
+
+
+.nav-btn i {
+    margin-right: 8px;
+}
+
+/* --------------------------------------Footer Section-------------------------------------- */
+.footer {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    background-color: #f7f7f7;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footer-para {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-para p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.footer-head {
+    color: #3DB14B;
+    margin-bottom: 20px;
+}
+
+.footer-ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-lists {
+    list-style: none;
+}
+
+.footer-links {
+    color: black;
+    text-decoration: none !important;
+}
+
+.footer-links:hover {
+    color: #3DB14B;
+}
+
+.footer-icon {
+    font-size: 15px;
+    color: #3DB14B;
+}
+
+.footer-contact-icons {
+    color: #3DB14B;
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+.footer-social-icons {
+    color: #3DB14B;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+/* --------------------------------------Banner Section-------------------------------------- */
+/* .banner-section {
+    position: relative;
+} */
+
+/* .banner-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+.banner-img {
+    height: 590px;
+    justify-content: center;
+    background-image: url(../Images/Banner2.jpg);
+    background-size: cover;
+    align-items: center;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner-section h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    color: #3DB14B;
+}
+
+.banner-section p {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* --------------------------------Category Section-------------------------------- */
+/* .cat-section{} */
+.cat-card {
+    background-color: white;
+    text-align: center;
+    border: 2px solid #3DB14B;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+
+.cat-links {
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.cat-links:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #3DB14B;
+}
+
+/* ----------------------------Recent jobs & Category jobs,View Job & All Jobs---------------------------- */
+.jobs-card {
+    background-color: white;
+    display: flex;
+    border: 1px solid #3DB14B;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+
+.company-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobs-card p {
+    margin: 0;
+}
+
+.category-jobs,
+.view-job {
+    min-height: 500px;
+}
+
+.category-head,
+.view-job-head {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.job-data h5 {
+    color: #3DB14B;
+}
+
+.cmp-img {
+    width: 100%;
+    height: 90px;
+}
+
+.job-detail {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.job-detail i {
+    margin-right: 10px;
+    color: #3DB14B;
+}
+
+.company-image {
+    width: 120px;
+    height: 75px;
+}
+
+.job-info {
+    padding: 5px 20px;
+    border: 2px solid #3DB14B;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.apply-btn:hover,
+.view-btn:hover {
+    background-color: #246c2c;
+}
+
+.apply-btn,
+.view-btn {
+    background-color: #3DB14B;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+/* ================================================about us section ======================================== */
+.right-about{
+    width: 50%;
+}
+.left-about{
+    width: 50%;
+}
+.about-section{
+    margin-bottom: 40PX;
+}
+/* ================================================contact section ======================================== */
+.contact-head{
+    text-align: center;
+    font-size: 30px;
+    color: #3DB14B;
+}
+.contact-ul{
+    text-align: center;
+    list-style: none;
+    margin-top: 20px;
+}
+.contact-lists{
+    margin-top: 15px;
+}
+.contact-links i{
+    color: #3DB14B;
+    margin-right:10px ;
+}
+
+/* ============================================= Responsive ============================================= */
+@media(max-width:990px) {}
+
+@media(max-width:650px) {
+    .banner-section h1 {
+        font-size: 45px;
+    }
+
+    .banner-section p {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:400px) {}

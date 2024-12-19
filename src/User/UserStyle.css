@@ -1,0 +1,86 @@
+/* ====================================User Dashboard==================================== */
+/* -------------------------User Navbar------------------------- */
+.user-navbar {
+    /* background-color: #efefef; */
+    background-color: #f7f7f7;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    /* position: sticky;
+    top: 0; */
+    /* z-index: 1; */
+}
+
+.u-brand-img {
+    width: 230px;
+    height: 50px;
+}
+
+.user-dash-link {
+    color: #3DB14B;
+    margin: 0 0 0 10px;
+    font-weight: normal;
+}
+
+.u-nav-icon {
+    color: #3DB14B;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.ProfileDropdown {
+    top: 51px;
+    left: -140px;
+    min-width: 200px;
+}
+
+.user-nav-1 {
+    gap: 15px;
+}
+
+.user-dropdown-link {
+    padding: 8px 20px !important;
+}
+
+.user-nav-link {
+    color: black !important;
+    font-size: 18px;
+}
+
+.user-nav-link:hover {
+    color: #3DB14B !important;
+}
+
+/* -----------------------------Apply Job----------------------------- */
+.apply-job {
+    min-height: 596px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-apply-form {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.job-apply-form button {
+    background-color: #3DB14B;
+    color: white;
+}
+
+
+/* =====================User Applications===================== */
+.user-head {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.user-applications-table {
+    width: 100%;
+}
+
+.user-applications-table i {
+    color: #3DB14B;
+    cursor: pointer;
+}

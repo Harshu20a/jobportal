@@ -1,0 +1,52 @@
+/* ---------------------Above Large(md)/Extra Large(xl)--------------------- */
+@media(min-width:993px) {}
+
+/* --------------------Below Extra Large(xl)/Large(lg)-------------------- */
+@media(max-width:992px) {
+
+    .sign-up-btn,
+    .login-btn {
+        border: none;
+        margin-left: 0;
+        margin-right: 5px;
+        padding: 8px 10px;
+    }
+
+    .apply-btn,
+    .view-btn {
+        margin: 10px 2px;
+        padding: 10px;
+    }
+}
+
+/* --------------------Below Large(lg)/Medium(md)-------------------- */
+@media(max-width:768px) {}
+
+/* -------------------Below Medium(md)/Small(sm)------------------- */
+@media(max-width:576px) {
+    .logo1 {
+        max-width: 180px;
+        max-height: 40px;
+    }
+
+    .company-img {
+        padding: 0 15px 0 0;
+    }
+
+    .company-image {
+        display: none;
+    }
+
+    .job-detail {
+        border: none;
+    }
+
+    .job-info {
+        padding: 3px 5px;
+    }
+
+    .apply-btn,
+    .view-btn {
+        margin: 10px 2px;
+    }
+}

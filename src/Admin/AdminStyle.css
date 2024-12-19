@@ -1,0 +1,215 @@
+/* ====================================AdminDashboard==================================== */
+.dash-head {
+    text-align: center;
+    color: #3DB14B;
+    margin: 0;
+    padding: 35px 0;
+}
+
+.dash-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    justify-content: center;
+    /* gap: 10px 5px; */
+}
+
+.dash-item {
+    margin: 10px;
+    text-align: center;
+    /* max-width: 49.1%; */
+    padding: 20px;
+    border: 2px solid #3DB14B;
+    border-radius: 5px;
+}
+
+.dash-item-count {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* =====================================AdminNavbar===================================== */
+.dashboard-navbar {
+    /* background-color: #efefef; */
+    background-color: #f7f7f7;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.brand-img {
+    width: 230px;
+    height: 50px;
+}
+
+.admin-nav-icon {
+    margin-right: 20px;
+}
+
+.nav-icon {
+    color: #3DB14B;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* =======================Left Sidebar======================= */
+.left-sidebar {
+    max-height: 729px;
+    /* background-color: #f7f7f7; */
+    background-color: #efefef;
+    border-right: 1px solid lightgrey;
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    /* z-index: 1; */
+}
+
+.dash-link {
+    margin: 15px 0 0 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    color: #3DB14B !important;
+}
+
+.left-nav * {
+    color: black;
+}
+
+.left-nav {
+    padding: 15px 0;
+}
+
+.left-nav li {
+    line-height: 35px;
+}
+
+.left-nav li a {
+    padding: 5px 0;
+}
+
+.left-nav-icon {
+    margin-right: 20px;
+}
+
+.left-nav li a:hover {
+    color: #3DB14B;
+}
+
+.left-nav span {
+    cursor: pointer;
+}
+
+/* ======================Right sidebar====================== */
+.right-sidebar {
+    padding: 0;
+    max-height: 730px;
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* --------- Post/Edit Job & Post/Edit Company & Post/Edit Category & Post/Edit Skill--------- */
+
+.job-post-form,
+.edit-post-form,
+.post-company-form,
+.edit-company-form,
+.post-category-form,
+.post-skill-form {
+    min-height: 546px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.form {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.skill-data {
+    margin-bottom: 5px;
+}
+
+.skills {
+    display: inline-block;
+    color: white;
+    background-color: #3DB14B;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 3px 0 3px;
+    cursor: pointer;
+}
+
+.skills i {
+    margin-left: 8px;
+}
+
+.edit-head,
+.post-head {
+    text-align: center;
+}
+
+.update-btn,
+.post-btn {
+    background-color: rgb(133, 217, 133);
+}
+
+.update-btn:hover,
+.post-btn:hover {
+    background-color: lightgreen;
+}
+
+/* --------Manage Jobs & Manage Company & Manage Category & Manage Skill & Manage User & Manage Application-------- */
+
+.jobs-table,
+.company-table,
+.category-table,
+.skill-table,
+.application-table {
+    /* position: relative; */
+    overflow: auto;
+    /* transform: rotate(180deg); */
+    padding: 15px;
+    height: 538px;
+}
+
+.user-table {
+    overflow: auto;
+    height: 596px;
+    padding: 15px;
+}
+
+.manage-head {
+    padding: 10px;
+    /* background-color: #fbfbfb; */
+    position: sticky;
+    top: 0;
+    /* border-radius: 10px; */
+    border-bottom: 1px solid lightgrey;
+}
+
+.image-file,
+.company_image {
+    width: 60px;
+    height: 50px;
+}
+
+.edit-icon,
+.delete-icon {
+    padding: 5px 4px;
+    color: #3DB14B;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 2px;
+    border: 1px solid #3DB14B;
+}
