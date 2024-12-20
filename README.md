@@ -1,5 +1,4 @@
-make componets folder 
-in component folder make banner.jsx and design of banner section
+
 
 layout folder
 in layout folder call navbar.jsx and banner.jsx
