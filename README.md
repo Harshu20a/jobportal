@@ -15,6 +15,3 @@ i axios
 npm i react-toastify
 
 
-in the component folder make admin folder and then in the admin folder make adminlogin.jsx 
-adminlogin.jsx me hamne login form banaya hai 
-backend se hamne email, password check agar yah sahi hota hai to ham usenavigate ka use kr ke admindashborad pe pouch jaye ge 
